@@ -1,0 +1,348 @@
+
+#General Config Section. See https://readme.firstdarkdev.xyz/simple-rpc/introduction/
+[general]
+	#The Application ID of the Discord App to use
+	applicationID = 1071130083961602099
+	#Enable/Disable the mod
+	enabled = true
+	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
+	debugging = false
+	#Enable/Disable the in game config screen. ONLY AVAILABLE WHEN CLOTH CONFIG IS INSTALLED!
+	configScreen = false
+	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
+	launcherIntegration = false
+	#Internal Version Number. NO TOUCHY!
+	version = 18
+
+#The Game Loading event
+[init]
+	#Enable/Disable the Game Loading Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Skyblock con mods 1.18.2"
+	#The second line of text under the app name
+	state = "Cargando..."
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["https://i.imgur.com/ONBEaMI.png"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Skyblock con mods 1.18.2"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["%playerhead%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%player%"
+	#The buttons to display on Discord
+	# REMOVE ME buttons = []
+	
+	[[init.buttons]]
+		label = "Unete a nuestro Discord"
+		url = "https://discord.gg/heavynight"
+
+	[[init.buttons]]
+		label = "Pagina Web"
+		url = "https://heavynight.com/heavysky"
+
+#The Main Menu event
+[main_menu]
+	#Enable/Disable the Main Menu Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Skyblock con mods 1.18.2"
+	#The seconds line of text under the app name
+	state = "%mods% mods"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["https://i.imgur.com/ONBEaMI.png"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Skyblock con mods 1.18.2"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["%playerhead%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%player%"
+	#The buttons to display on Discord
+	# REMOVE ME buttons = []
+	
+	[[main_menu.buttons]]
+		label = "Unete a nuestro Discord"
+		url = "https://discord.gg/heavynight"
+
+	[[main_menu.buttons]]
+		label = "Pagina Web"
+		url = "https://heavynight.com/heavysky"
+
+#The Server List event
+[server_list]
+	#Enable/Disable the Server List Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Skyblock con mods 1.18.2"
+	#The second line of text under the app name
+	state = "%mods% mods"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["https://i.imgur.com/ONBEaMI.png"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Skyblock con mods 1.18.2"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["%playerhead%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%player%"
+	#The buttons to display on Discord
+	# REMOVE ME buttons = []
+	
+	[[server_list.buttons]]
+		label = "Unete a nuestro Discord"
+		url = "https://discord.gg/heavynight"
+
+	[[server_list.buttons]]
+		label = "Pagina Web"
+		url = "https://heavynight.com/heavysky"
+
+#The Realms Screen event
+[realms_list]
+	#Enable/Disable the Realms Screen Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Skyblock con mods 1.18.2"
+	#The second line of text under the app name
+	state = "%mods% mods"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["https://i.imgur.com/ONBEaMI.png"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Skyblock con mods 1.18.2"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["%playerhead%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%player%"
+	#The buttons to display on Discord
+	# REMOVE ME buttons = []
+	
+	[[realms_list.buttons]]
+		label = "Unete a nuestro Discord"
+		url = "https://discord.gg/heavynight"
+
+	[[realms_list.buttons]]
+		label = "Pagina Web"
+		url = "https://heavynight.com/heavysky"
+
+#The Join Game Event
+[join_game]
+	#Enable/Disable the Join Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Skyblock con mods 1.18.2"
+	#The second line of text under the app name
+	state = "%mods% mods"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["https://i.imgur.com/ONBEaMI.png"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Skyblock con mods 1.18.2"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["%playerhead%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%player%"
+	#The buttons to display on Discord
+	# REMOVE ME buttons = []
+	
+	[[join_game.buttons]]
+		label = "Unete a nuestro Discord"
+		url = "https://discord.gg/heavynight"
+
+	[[join_game.buttons]]
+		label = "Pagina Web"
+		url = "https://heavynight.com/heavysky"
+
+#The Single Player Event
+[single_player]
+	#Enable/Disable the Single Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Skyblock con mods 1.18.2"
+	#The second line of text under the app name
+	state = "%mods% mods"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["https://i.imgur.com/ONBEaMI.png"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Skyblock con mods 1.18.2"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["%playerhead%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%player%"
+	#The buttons to display on Discord
+	# REMOVE ME buttons = []
+	
+	[[single_player.buttons]]
+		label = "Unete a nuestro Discord"
+		url = "https://discord.gg/heavynight"
+
+	[[single_player.buttons]]
+		label = "Pagina Web"
+		url = "https://heavynight.com/heavysky"
+
+#The Multi Player Event
+[multi_player]
+	#Enable/Disable the Multi Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Skyblock con mods 1.18.2"
+	#The second line of text under the app name
+	state = "Jugadores %players% / %maxplayers%"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["https://i.imgur.com/ONBEaMI.png"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Skyblock con mods 1.18.2"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["%playerhead%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%player%"
+	#The buttons to display on Discord
+	# REMOVE ME buttons = []
+	
+	[[multi_player.buttons]]
+		label = "Unete a nuestro Discord"
+		url = "https://discord.gg/heavynight"
+
+	[[multi_player.buttons]]
+		label = "Pagina Web"
+		url = "https://heavynight.com/heavysky"
+
+#The Realms Game Event
+[realms]
+	#Enable/Disable the Realms Game Event
+	enabled = false
+	#The first line of text under the app name
+	description = "Skyblock con mods 1.18.2"
+	#The second line of text under the app name
+	state = "%mods% mods"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["https://i.imgur.com/ONBEaMI.png"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Skyblock con mods 1.18.2"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["%playerhead%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%player%"
+	#The buttons to display on Discord
+	# REMOVE ME buttons = []
+	
+	[[realms.buttons]]
+		label = "Unete a nuestro Discord"
+		url = "https://discord.gg/heavynight"
+
+	[[realms.buttons]]
+		label = "Pagina Web"
+		url = "https://heavynight.com/heavysky"
+
+#Fallback event for disabled events
+[generic]
+	#The first line of text under the app name
+	description = "Skyblock con mods 1.18.2"
+	#The second line of text under the app name
+	state = "%mods% mods"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["https://i.imgur.com/ONBEaMI.png"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Skyblock con mods 1.18.2"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["%playerhead%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%player%"
+	#The buttons to display on Discord
+	# REMOVE ME buttons = []
+	
+	[[generic.buttons]]
+		label = "Unete a nuestro Discord"
+		url = "https://discord.gg/heavynight"
+
+	[[generic.buttons]]
+		label = "Pagina Web"
+		url = "https://heavynight.com/heavysky"
+
+#Custom Config Variables that you can use
+[custom]
+	#Must these variables be parsed along with other variables
+	enabled = true
+	#Your custom variables to add
+	variables = []
+
+#Dimension Information Overrides
+[dimension_overrides]
+	#Allows you to override the displayed values for dimensions
+	enabled = false
+
+	#The Dimensions to override
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "overworld"
+		#The first line of text under the app name
+		description = "Skyblock con mods 1.18.2"
+		#The second line of text under the app name
+		state = "%mods% mods"
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ["https://i.imgur.com/ONBEaMI.png"]
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "Skyblock con mods 1.18.2"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = ["%playerhead%"]
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%player%"
+		#The buttons to display on Discord
+	# REMOVE ME buttons = []
+	
+	[[dimension_overrides.buttons]]
+		label = "Unete a nuestro Discord"
+		url = "https://discord.gg/heavynight"
+
+	[[dimension_overrides.buttons]]
+		label = "Pagina Web"
+		url = "https://heavynight.com/heavysky"
+
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "the_nether"
+		#The first line of text under the app name
+		description = "Skyblock con mods 1.18.2"
+		#The second line of text under the app name
+		state = "%mods% mods"
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ["https://i.imgur.com/ONBEaMI.png"]
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "Skyblock con mods 1.18.2"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = ["%playerhead%"]
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%player%"
+		#The buttons to display on Discord
+	# REMOVE ME buttons = []
+	
+	[[dimension_overrides.buttons]]
+		label = "Unete a nuestro Discord"
+		url = "https://discord.gg/heavynight"
+
+	[[dimension_overrides.buttons]]
+		label = "Pagina Web"
+		url = "https://heavynight.com/heavysky"
+
+	[[dimension_overrides.dimensions]]
+		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+		name = "the_end"
+		#The first line of text under the app name
+		description = "Skyblock con mods 1.18.2"
+		#The second line of text under the app name
+		state = "%mods% mods"
+		#The Asset ID of the image to display as the large image
+		largeImageKey = ["https://i.imgur.com/ONBEaMI.png"]
+		#The text that gets displayed when the large image is hovered
+		largeImageText = "Skyblock con mods 1.18.2"
+		#The Asset ID of the image to display as the small image
+		smallImageKey = ["%playerhead%"]
+		#The text that gets displayed when the small image is hovered
+		smallImageText = "%player%"
+		#The buttons to display on Discord
+	# REMOVE ME buttons = []
+	
+	[[dimension_overrides.buttons]]
+		label = "Discord Servidor"
+		url = "https://discord.gg/heavynight"
+
+	[[dimension_overrides.buttons]]
+		label = "Pagina Web"
+		url = "https://heavynight.com/heavysky"
+
